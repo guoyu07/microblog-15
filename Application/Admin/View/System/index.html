@@ -1,0 +1,62 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>站点配置</p>
+    <div class="form-group">
+        <label>站点状态:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span><input type="radio" name="type" value="1" checked></span> 开启 &nbsp;&nbsp;
+        <span><input type="radio" name="type" value="2"></span> 关闭
+        <hr style="BORDER-BOTTOM-STYLE: dotted;"/>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">站点名称:</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">版权信息:</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputPassword4">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">站点logo:</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputPassword5">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">客服邮箱:</label>
+
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="inputPassword6">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">默认首页:</label>
+
+                <div class="col-sm-5">
+                    <div class="btn-group">
+                        <button class="btn btn-default btn-sm dropdown-toggle" type="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                            我的首页 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">频道</a></li>
+                            <li><a href="#">微吧</a></li>
+                            <li><a href="#">找人</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-info">保存</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</block>

@@ -1,0 +1,231 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+<p>用户管理</p>
+<div class="form-group">
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">用户列表</a></li>
+        <li role="presentation"><a href="#">待审列表</a></li>
+        <li role="presentation"><a href="#">禁用列表</a></li>
+        <li role="presentation"><a href="#">添加用户</a></li>
+    </ul>
+<!--用户列表-->
+    <div class="text">
+        <div aria-label="Basic example" class="table">
+            <button type="button" class="btn btn-default">搜索用户</button>
+            &nbsp;
+            <button type="button" class="btn btn-default">转移用户组</button>
+
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <th>UID</th>
+                    <th>用户名</th>
+                    <th>用户组</th>
+                    <th>地区</th>
+                    <th>是否审核</th>
+                    <th>是否激活</th>
+                    <th>是否初始化</th>
+                    <th>注册时间</th>
+                    <th>注册IP</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>
+                        <a href="#">编辑</a>&nbsp;<a href="#">禁用</a>&nbsp;<a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <td>2</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td><a href="#">编辑</a>&nbsp;<a href="#">禁用</a>&nbsp;<a href="#">删除</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--待审列表-->
+        <div aria-label="Basic example" class="table">
+            <button type="button" class="btn btn-default">搜索用户</button>
+            &nbsp;
+            <button type="button" class="btn btn-default">通过审核</button>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <th>UID</th>
+                    <th>用户名</th>
+                    <th>地区</th>
+                    <th>注册时间</th>
+                    <th>注册IP</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>
+                        <a href="#">编辑</a>&nbsp;<a href="#">禁用</a>&nbsp;<a href="#">删除</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--禁用列表-->
+        <div aria-label="Basic example" class="table">
+            <button type="button" class="btn btn-default">搜索用户</button>
+            &nbsp;
+            <button type="button" class="btn btn-default">恢复账号</button>
+
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <th>UID</th>
+                    <th>用户名</th>
+                    <th>用户组</th>
+                    <th>地区</th>
+                    <th>审核</th>
+                    <th>激活</th>
+                    <th>初始化</th>
+                    <th>注册时间</th>
+                    <th>注册IP</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>
+                        <div class="checkbox">
+                            <label> <input type="checkbox" value=""> </label>
+                        </div>
+                    </th>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>
+                        <a href="#">编辑</a>&nbsp;<a href="#">禁用</a>&nbsp;<a href="#">删除</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--添加用户-->
+        <div aria-label="Basic example" class="table">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Email:</label>
+
+                    <div class="col-sm-5">
+                        <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">用户名:</label>
+
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">密码:</label>
+
+                    <div class="col-sm-5">
+                        <input type="password" class="form-control" id="inputPassword5">
+                    </div>
+                </div>
+                <hr/>
+                <div class="radio">
+                    <label class="col-sm-2 control-label">性别:</label>
+
+                    <div class="col-sm-5">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>男
+                        </label>
+                        &nbsp;&nbsp;
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">女
+                        </label>
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">用户组:</label>
+                    <label class="checkbox-inline control-label">
+                        <input type="checkbox" id="inlineCheckbox1" value="option1"> 管理员
+                    </label>
+                    <label class="checkbox-inline control-label">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2"> 正常用户
+                    </label>
+                    <label class="checkbox-inline control-label">
+                        <input type="checkbox" id="inlineCheckbox3" value="option3"> 禁言用户
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-info">保存</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</block>

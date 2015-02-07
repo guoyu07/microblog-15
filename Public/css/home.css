@@ -1,0 +1,333 @@
+/*首页css*/
+
+/*首页-头部css*/
+.body{
+    background-image: url("/Public/images/bg.png");
+    background-position: left 40px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #C0DEED;
+}
+.container-fluid-2{
+    background-color: #FFF;
+}
+.navbar-default .navbar-nav> li> a{
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #08c;
+}
+.size32 {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+.dropdown-menu li a{
+    font-size: 13px;
+}
+.navbar-nav li form{
+    margin-top: 14px;
+}
+.modal-content .modal-body{
+    background-color: #e1e8ed;
+}
+
+/*首页-内容部分css*/
+.row{
+    margin-top: 80px;
+}
+.row_left{
+    float: left;
+    width: 290px;
+}
+.row_left_top{
+    border: 1px solid #e1e8ed;
+    background: #FFF;
+    border-radius: 6px;
+}
+.empty{
+    height: 95px;
+    background-color: #0084B4;
+    border-radius: 4px 4px 0 0;
+}
+.info{
+    height: 102px;
+}
+.info ul{
+    margin-bottom: 0;
+}
+.info ul li{
+    list-style: none;
+    float: left;
+    padding: 45px;
+    padding-left: 0;
+    height: 102px;
+}
+.info ul li a{
+    font-size: 13px;
+    color: #8c9ca9;
+}
+.info ul li a:hover{
+    text-decoration: none;
+    color: #08c;
+}
+.title{
+
+    font-size: 10px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    transition: color .15s ease-in-out;
+    overflow: hidden;
+}
+.total{
+    display: block;
+    font-size: 18px;
+    padding-top: 3px;
+    font-weight: 500;
+    transition: color .15s ease-in-out;
+}
+.row_left_middle{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/*.row_left_middle a{*/
+    /*background-color: #fff;*/
+/*}*/
+.nikename{
+    position: absolute;
+    top: 32px;
+    left: 90px;
+    width: 185px;
+}
+.nikename_title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.modal-header h4{
+    text-align: center;
+}
+.row_left_bottom{
+    border: 1px solid #e1e8ed;
+    background: #FFF;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.size70{
+    width: 60px;
+    height: 58px;
+    border-radius: 4px;
+}
+.img{
+    height: 70px;
+    float: left;
+}
+.fullname{
+    float: left;
+    height: 70px;
+    margin-left: 10px;
+}
+.fullname p{
+    font-size: 13px;
+    color: #0084B4;
+}
+.user-actions{
+    position: relative;
+    top: -12px;
+}
+.js-action-follow{
+    font-size: 13px;
+}
+.small-follow-btn:hover{
+    background-color: #ccd6dd;
+}
+.cate{
+    margin-left: 15px;
+    display: inline;
+}
+.cate h4{
+    display: inline;
+    color: #66757f;
+}
+.cate span{
+    color: #66757f;
+    font-size: 12px;
+}
+.cate a{
+    font-size: 12px;
+}
+.cate_info{
+    margin-top: 10px;
+}
+.cate_info ul li{
+    list-style: none;
+}
+.main{
+    width: 590px;
+    float: left;
+    border: 1px solid #e1e8ed;
+    background: #FFF;
+    border-radius: 6px;
+}
+.main_top{
+    background-color: #BFE0EC;
+    width: 562px;
+    height: 150px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.camera{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+.disabled{
+    position: absolute;
+    top: 95px;
+    left: 140px;
+}
+.disabled:hover{
+    text-decoration: none;
+    color: #337ab7;
+}
+.blog_textarea b{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+.send{
+    position: absolute;
+    top: 95px;
+    left: 400px;
+}
+.textbox_reply{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.textbox_reply a{
+    text-decoration: none;
+}
+.jiangefu{
+    border-bottom: 2px solid #BFE0EC;
+}
+.textbox_content{
+    margin-top: 10px;
+}
+#inputEmail3{
+    margin-top: 6px;
+}
+.bs-example{
+    margin-top: 10px;
+}
+.bs-example p{
+    text-align: center;
+    font-size: 13px;
+}
+.bs-example p a:hover{
+    text-decoration: none;
+}
+.row_right_top{
+    border: 1px solid #e1e8ed;
+    background: #FFF;
+    border-radius: 6px;
+    margin-left: 8px;
+    width: 288px;
+}
+.cate_logo{
+    margin-top: 8px;
+}
+.small-follow-btn{
+    background-color: #e1e8ed;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #55acee;
+}
+.small-follow-btn .Icon {
+    font-size: 16px;
+    padding-right: 2px;
+}
+
+.account-group-inner{
+    margin-left: 10px;
+}
+.glyphicon-remove{
+    color: #ccd6dd;
+    margin-left: 12px;
+}
+.row_right_bottom{
+    margin-bottom: 10px;
+}
+.js-account-summary{
+    margin: 0 10px 0 10px;
+    height: 70px;
+}
+.js-account-summary a{
+    display: inline;
+}
+.account-summary {
+    position: relative;
+    display: block;
+    min-height: 48px;
+}
+.account-summary .avatar {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.footer{
+    border: 1px solid #e1e8ed;
+    background: #FFF;
+    border-radius: 6px;
+    margin-left: 10px;
+    height: 70px;
+    margin-top: 10px;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+}
+.copyright{
+    font-size: 13px;
+    color: #8899a6;
+}
+.footer ul li a{
+    display: block;
+    padding: 3px;
+    font-size: 13px;
+    color: #8899a6;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+/*前台登录注册页面的css*/
+body {
+    background-image: url("/Public/images/4831477_085700302328_2.jpg");
+    background-size: cover;
+}
+.login {
+    margin-top:50px;
+}
+.title1 {
+    text-align: center;
+    margin-bottom:50px;
+}
+.title2{
+    margin-left: 100px;
+}
+.sub{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+

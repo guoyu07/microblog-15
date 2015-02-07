@@ -1,0 +1,41 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>私信管理</p>
+    <div class="form-group">
+        <div aria-label="Basic example" style="margin-top: 10px;background-color: #d2dbea">
+            <button type="button" class="btn btn-default">删除私信</button>
+            &nbsp;
+            <button type="button" class="btn btn-default">搜索私信</button>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>
+                    <div class="checkbox">
+                        <label> <input type="checkbox" value=""> </label>
+                    </div>
+                </th>
+                <th>私信ID</th>
+                <th>私信发送者</th>
+                <th>私信内容</th>
+                <th>发送时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>
+                    <div class="checkbox">
+                        <label> <input type="checkbox" value=""> </label>
+                    </div>
+                </th>
+                <td>1</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td><a href="#">删除</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</block>

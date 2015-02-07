@@ -1,0 +1,29 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>用户组管理</p>
+    <div class="form-group">
+        <div aria-label="Basic example" style="margin-top: 10px;background-color: #d2dbea">
+            <button type="button" class="btn btn-default">添加用户组</button>
+        </div>
+        <table class="table table-bordered" style="margin-top: 10px">
+            <thead>
+            <tr>
+                <th>应用名</th>
+                <th>用户组名称</th>
+                <th>用户组图标</th>
+                <th>是否为认证组</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>public</td>
+                <td>管理员</td>
+                <td>正常用户</td>
+                <td>否</td>
+                <td><a href="#">编辑</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</block>

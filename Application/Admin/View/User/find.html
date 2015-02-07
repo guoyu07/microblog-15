@@ -1,0 +1,20 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>全局配置</p>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">找人配置</a></li>
+    </ul>
+    <div class="form-group table">
+        <label>全局配置:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span><input type="radio" name="type" value="1" checked></span> 按标签 &nbsp;&nbsp;
+        <span><input type="radio" name="type" value="2"></span> 按地区
+        <span><input type="radio" name="type" value="2"></span> 认证用户
+        <hr/>
+        <div class="form-group baocun">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info">保存</button>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</block>

@@ -1,0 +1,50 @@
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+/*.manage{*/
+    /*color: #fff;*/
+/*}*/
+body { padding-top: 70px; }
+.left_menu{
+    position: fixed;
+    top:70px;
+    left: 0px;
+}
+
+@media (max-width:992px){
+    .left_menu{
+        position:absolute;
+        top:70px;
+        left:0;
+        z-index: 2;
+
+    }
+    .left_menu_child {
+        display: none;
+    }
+    .main {
+        margin-top:46px;
+    }
+}
+.badge{
+    float: right;
+}
+p{
+    font-size: 16px;
+    color: #08c;
+    font-weight: bold;
+    border-bottom: 3px solid #08c;
+}
+.table{
+    margin-top: 10px;
+}
+.active{
+    color: #888;
+}
+
+.baocun{
+    margin-left: 330px;
+}
+.baocun2{
+    margin-left: 900px;
+}

@@ -1,0 +1,55 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>微博配置</p>
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">微博字数:</label>
+
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="140">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">微博类型:</label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox1" value="option1"> 表情
+            </label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox2" value="option2"> 好友
+            </label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox3" value="option3"> 图片
+            </label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox4" value="option1"> 视频
+            </label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox5" value="option2"> 附件
+            </label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox6" value="option3"> 投稿
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">微博设置:</label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox7" value="option1"> 转发微博
+            </label>
+            <label class="checkbox-inline control-label">
+                <input type="checkbox" id="inlineCheckbox8" value="option2"> 评论微博
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">微博提示语:</label>
+
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="inputEmail9" placeholder="记录,就是一种态度!">
+            </div>
+        </div>
+        <div class="form-group" style="margin-left: 330px">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info">保存</button>
+            </div>
+        </div>
+    </form>
+</block>

@@ -1,0 +1,92 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>管理日志</p>
+    <div class="form-group">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">日志列表</a></li>
+            <li role="presentation"><a href="#">日志归档</a></li>
+        </ul>
+        <!--日志列表-->
+        <div class="text">
+            <div aria-label="Basic example" class="table">
+                <button type="button" class="btn btn-default">搜索</button>
+                &nbsp;
+                <button type="button" class="btn btn-default">删除选中项</button>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>
+                             <input type="checkbox" value="">
+                        </th>
+                        <th>表名</th>
+                        <th>用户ID</th>
+                        <th>用户账号</th>
+                        <th>操作详情</th>
+                        <th>日志数据</th>
+                        <th>记录时间</th>
+                        <th>类型</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>
+                            <input type="checkbox" value="">
+                        </th>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td><a href="#">查看</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--日志归档-->
+            <div aria-label="Basic example" class="hide table">
+                <button type="button" class="btn btn-default">清除6个月前日志</button>
+                &nbsp;
+                <button type="button" class="btn btn-default">清除12个月前日志</button>
+                &nbsp;
+                <button type="button" class="btn btn-default">重建归档表</button>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" value="">
+                        </th>
+                        <th>表名</th>
+                        <th>数据引擎</th>
+                        <th>条数</th>
+                        <th>数据大小</th>
+                        <th>创建时间</th>
+                        <th>最后记录</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>
+                            <div class="checkbox">
+                                <label> <input type="checkbox" value=""> </label>
+                            </div>
+                        </th>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td>Table cell</td>
+                        <td><a href="#">查看</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</block>
+
+

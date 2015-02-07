@@ -1,0 +1,90 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>计划任务</p>
+    <div class="form-group">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">计划任务列表</a></li>
+            <li role="presentation"><a href="#">新建计划任务</a></li>
+        </ul>
+        <div class="text">
+        <!--计划任务列表-->
+            <div aria-label="Basic example" class="table">
+                <button type="button" class="btn btn-default">删除计划任务</button>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" value="">
+                    </th>
+                    <th>ID</th>
+                    <th>执行函数</th>
+                    <th>开始时间</th>
+                    <th>失效时间</th>
+                    <th>上次执行</th>
+                    <th>简介</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>
+                        <input type="checkbox" value="">
+                    </th>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                </tr>
+                </tbody>
+            </table>
+            <!--新建计划任务-->
+            <div aria-label="Basic example" class="hide table">
+                <div class="form-group">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">执行函数:</label>
+
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                            <h5>计划任务执行的函数，格式为：app/Model/method</h5>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">开始时间:</label>
+
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control" id="inputPassword4">
+                            </div>
+                            <h5>任务启动时间，使用“Y-m-d H:i:s”格式</h5>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">结束时间:</label>
+
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control" id="inputPassword5">
+                            </div>
+                            <h5>失效时间，使用“Y-m-d H:i:s”格式</h5>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">简介:</label>
+
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control" id="inputPassword6">
+                            </div>
+                            <h5>对计划任务的简要描述</h5>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-info">保存</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+
+

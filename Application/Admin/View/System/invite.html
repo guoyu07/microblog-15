@@ -1,0 +1,77 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>邀请配置</p>
+    <div class="form-group">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">邀请配置</a></li>
+            <li role="presentation"><a href="#">邮件邀请</a></li>
+            <li role="presentation"><a href="#">已邀请用户列表</a></li>
+        </ul>
+    </div>
+    <!--邀请配置-->
+    <div class="text">
+        <div aria-label="Basic example" class="table">
+            <form class="form-horizontal table" role="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">邮件邀请码数量:</label>
+
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="inputEmail2">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10" style="margin-left: 600px">
+                        <button type="submit" class="btn btn-info">保存</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+            <!--邮件邀请-->
+        <div aria-label="Basic example" class="hide table">
+            <form class="form-horizontal table" role="form">
+                <div class="form-group">
+                    <lable class="col-sm-2 control-label">请输入用户邮箱</lable>
+
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="inputEmail5">
+                    </div>
+                    <a href="#">发送邀请</a>
+                </div>
+            </form>
+        </div>
+            <!--已邀请用户列表-->
+        <div aria-label="Basic example" class="hide table">
+            <button type="button" class="btn btn-default">筛选列表</button>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>被邀请人头像</th>
+                    <th>被邀请人昵称</th>
+                    <th>被邀请人注册邮箱</th>
+                    <th>被邀请人注册时间</th>
+                    <th>邀请类型</th>
+                    <th>邀请码</th>
+                    <th>邀请人昵称</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="form-group hide table">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-info">保存</button>
+                </div>
+            </div>
+        </div>
+        <hr/>
+    </div>
+</block>

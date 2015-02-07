@@ -1,0 +1,42 @@
+<extend name="./Public/layout_admin.html"/>
+<block name="content">
+    <p>缓存配置</p>
+    <div class="form-group">
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">缓存类型:</label>
+
+                <div class="col-sm-5">
+                    <span><input type="radio" name="type" value="1" checked></span> 文件缓存 &nbsp;&nbsp;
+                    <span><input type="radio" name="type" value="2"></span> Xcache &nbsp;&nbsp;
+                    <span><input type="radio" name="type" value="2"></span> APC &nbsp;&nbsp;
+                    <span><input type="radio" name="type" value="2"></span> Memcache
+                </div>
+            </div>
+            <hr style="BORDER-BOTTOM-STYLE: dotted;"/>
+            <div class="form-group">
+                <label for="inputEmail4" class="col-sm-2 control-label">缓存配置:</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">运行状态:</label>
+
+                <div class="col-sm-5">
+                    <span><input type="radio" name="type" value="2"></span>正常
+                </div>
+            </div>
+            <hr style="BORDER-BOTTOM-STYLE: dotted;"/>
+            <div class="form-group" style="margin-left: 330px">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-info">保存</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</block>
+
+
